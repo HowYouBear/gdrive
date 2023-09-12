@@ -1,0 +1,13 @@
+.mainFrame{
+    display: grid;
+    grid-template-columns: 350px 1fr;
+}
+
+.sideContent, .mainContent{
+    height: 100vh;
+}
+
+.sideContent{
+    background-color: #3b62c2;
+    border-top-right-radius: 5rem;
+}

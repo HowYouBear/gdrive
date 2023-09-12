@@ -1,0 +1,28 @@
+.sideContentFrame button{
+    border: none;
+    background-color: #ffffff;
+    color: #4862bf;
+    border-radius: 25px;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    margin: 3rem 0 3rem 2rem;
+}
+
+.sideContentFrame{
+    color: #ffffff;
+    font-size: 1.4rem;
+    div{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 50px 1fr;
+        margin: 2rem 0 2rem 2rem;
+    } i{
+        text-align: center;
+        margin-right: 1rem;
+        font-size: 1.8rem;
+    }
+}
+
+.sideContentFrame div:first-child{
+    color: #aebaca;
+}
