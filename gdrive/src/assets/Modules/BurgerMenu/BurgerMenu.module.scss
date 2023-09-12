@@ -1,0 +1,28 @@
+.mainFrameBurgerMenu{
+    align-items: center;
+}
+
+.styleBurgerMenu{
+    position: relative;
+    background-color: #aeb9cb;
+    border-radius: 10px;
+    width: 2rem;
+    height: 0.25rem;
+}
+
+.styleBurgerMenu::before, .styleBurgerMenu::after{
+    content: " ";
+    position: absolute;
+    width: 2rem;
+    height: 0.25rem;
+    border-radius: 10px;
+    background-color: #aeb9cb;
+}
+
+.styleBurgerMenu::before{
+    top: -0.6rem;
+}
+
+.styleBurgerMenu::after{
+    top: 0.6rem;
+}
